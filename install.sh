@@ -11,9 +11,9 @@
 #                         the local test harness point at a file:// or http dir
 set -euo pipefail
 
-# Distribution home: the public Maddox-LLC/maddox repo hosts the release binaries
+# Distribution home: the public Maddox-LLC/Maddox-CLI repo hosts the release binaries
 # + SHA256SUMS (the MaddoxAPI monorepo is private, so its assets aren't public).
-REPO="Maddox-LLC/maddox"
+REPO="Maddox-LLC/Maddox-CLI"
 VERSION="${MADDOX_VERSION:-latest}"
 DIR="${HOME}/.local/bin"
 

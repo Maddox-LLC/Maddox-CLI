@@ -1,6 +1,6 @@
 # maddox
 
-[![Release](https://img.shields.io/github/v/release/Maddox-LLC/maddox?display_name=tag&sort=semver&label=release)](https://github.com/Maddox-LLC/maddox/releases)
+[![Release](https://img.shields.io/github/v/release/Maddox-LLC/Maddox-CLI?display_name=tag&sort=semver&label=release)](https://github.com/Maddox-LLC/Maddox-CLI/releases)
 [![Homebrew](https://img.shields.io/badge/homebrew-maddox--llc%2Ftap-orange)](https://github.com/Maddox-LLC/homebrew-tap)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](#license)
 
@@ -29,13 +29,13 @@ The installer downloads the binary for your platform, verifies its SHA-256
 checksum, and installs it to `~/.local/bin` (override with `--dir`):
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/Maddox-LLC/maddox/main/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/Maddox-LLC/Maddox-CLI/main/install.sh | sh
 ```
 
 ### Manual
 
 Download the binary for your platform from the
-[latest release](https://github.com/Maddox-LLC/maddox/releases/latest), verify it
+[latest release](https://github.com/Maddox-LLC/Maddox-CLI/releases/latest), verify it
 against `SHA256SUMS`, mark it executable (`chmod +x`), and place it on your `PATH`.
 
 ## Getting started
