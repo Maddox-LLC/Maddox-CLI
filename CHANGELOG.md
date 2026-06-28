@@ -1,16 +1,8 @@
 # Changelog
 
-All notable, **user-facing** changes to the `maddox` CLI. The format is based on
-[Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and the project follows
-[Semantic Versioning](https://semver.org). Dates are UTC.
-
-Write for the people who run the CLI: what behavior, flags, or output changed, and
-what they must do about it. Do not document internal architecture, infrastructure,
-or ADR internals here — see the "user-facing vs. trade-secret" rubric in
-[CONTRIBUTING.md](../../CONTRIBUTING.md).
-
-The top section's version must match `crates/maddox-cli/Cargo.toml`; the release
-tooling publishes this section as the `cli-v<version>` GitHub release notes.
+All notable changes to the **`maddox` CLI** are recorded here, newest first. The
+format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the
+project adheres to [Semantic Versioning](https://semver.org). Dates are UTC.
 
 ## [0.1.0] - 2026-06-28
 
