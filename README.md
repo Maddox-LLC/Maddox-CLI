@@ -1,4 +1,4 @@
-# maddox
+# Maddox-CLI
 
 [![Release](https://img.shields.io/github/v/release/Maddox-LLC/Maddox-CLI?display_name=tag&sort=semver&label=release)](https://github.com/Maddox-LLC/Maddox-CLI/releases)
 [![Homebrew](https://img.shields.io/badge/homebrew-maddox--llc%2Ftap-orange)](https://github.com/Maddox-LLC/homebrew-tap)
