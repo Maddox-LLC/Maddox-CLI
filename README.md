@@ -10,7 +10,7 @@ command line. A single static binary, no runtime dependencies.
 
 ## Documentation
 
-Full API docs live in the [Maddox Console](https://app.maddoxapi.dev). Run
+Full API docs live at **[docs.maddoxapi.dev](https://docs.maddoxapi.dev)**. Run
 `maddox <command> --help` for command-level reference.
 
 ## Installation
