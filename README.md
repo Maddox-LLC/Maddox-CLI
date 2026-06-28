@@ -29,7 +29,7 @@ The installer downloads the binary for your platform, verifies its SHA-256
 checksum, and installs it to `~/.local/bin` (override with `--dir`):
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/Maddox-LLC/Maddox-CLI/main/install.sh | sh
+curl -fsSL https://get.maddoxapi.dev | sh
 ```
 
 ### Manual

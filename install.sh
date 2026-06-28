@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Issue #560 PR6 — checksum-verified installer for the `maddox` CLI.
 #
-#   curl -fsSL https://maddoxapi.dev/install.sh | sh
+#   curl -fsSL https://get.maddoxapi.dev | sh
 #   # or pin a version / dir:
 #   MADDOX_VERSION=cli-v0.1.0 ./install-maddox.sh --dir ~/.local/bin
 #
