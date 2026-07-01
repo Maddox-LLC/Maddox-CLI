@@ -4,6 +4,26 @@ All notable changes to the **`maddox` CLI** are recorded here, newest first. The
 format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the
 project adheres to [Semantic Versioning](https://semver.org). Dates are UTC.
 
+## [0.3.0] - 2026-07-01
+
+### Added
+- Update notifications — `maddox` now tells you when a newer version is available,
+  e.g. `maddox 0.3.0 is available (you have 0.2.0) — upgrade with: brew upgrade maddox`.
+  The check runs at most once a day, only in an interactive terminal (never in
+  scripts, pipes, or CI), and never slows a command (500ms timeout, fully offline-safe).
+  Silence it with `MADDOX_NO_UPDATE_CHECK=1`; `NO_COLOR` is honored.
+
+## [0.2.0] - 2026-06-30
+
+### Added
+- `maddox labels batch` — render many labels in one call from an items JSON file (or
+  stdin): pass a `{ "items": [...] }` object or a bare array of render bodies (each
+  item is a `labels create` body — `template_id` + `--field`/`--value` equivalents,
+  plus an optional `external_ref`). Prints a per-item table and a
+  `total / ok / failed` summary; `--output-dir <dir>` downloads each successful PNG
+  (named by `external_ref`, else content hash); `--json` emits machine-readable
+  results; exits non-zero if any item failed.
+
 ## [0.1.0] - 2026-06-28
 
 Initial release.
