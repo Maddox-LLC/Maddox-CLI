@@ -1,3 +1,9 @@
+> [!IMPORTANT]
+> **Maddox Render has been discontinued (July 2026).** The Maddox API service is
+> offline, so this CLI no longer functions for API-backed commands (offline ZPL
+> linting still works). This repository is archived and preserved for reference;
+> the final release is `cli-v0.4.0`. Thank you to everyone who tried it.
+
 # Maddox-CLI
 
 [![Release](https://img.shields.io/github/v/release/Maddox-LLC/Maddox-CLI?display_name=tag&sort=semver&label=release)](https://github.com/Maddox-LLC/Maddox-CLI/releases)
