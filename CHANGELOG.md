@@ -4,6 +4,31 @@ All notable changes to the **`maddox` CLI** are recorded here, newest first. The
 format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the
 project adheres to [Semantic Versioning](https://semver.org). Dates are UTC.
 
+## [0.4.0] - 2026-07-01
+
+### Added
+- `keys create --scope <admin|team>` — mint a key with a permission scope. An
+  **admin** key can do everything; a **team** key is limited to day-to-day work
+  (render, labels, templates, usage) and is blocked from account-disruptive
+  actions (billing, subscription, account, and key management). New keys default
+  to **team** on paid plans; sandbox keys are always **admin**. The resolved scope
+  is printed on creation.
+- `keys list` now shows a **Scope** column (and a `scope` field under `--json`).
+  Keys created before scopes existed show as **admin**.
+- `maddox account password` — change your account password with an **admin** key.
+  The current and new passwords are read from stdin (line 1, then line 2), never
+  from flags, so they stay out of your shell history. Setting a *first* password
+  on an OAuth/passkey account stays Console-only.
+- `maddox account email --new <address>` — request an account email change with an
+  **admin** key; a confirmation link is sent to the new address.
+- `maddox templates field-map <id> --map <file|->` — set or update your own
+  template's `field_map` (semantic field name → `^FN` index) without resubmitting
+  the ZPL body. Only your own tenant-owned template; a global-only template must
+  be committed as a tenant copy first (`templates commit`).
+- `maddox templates schema <id>` — show a template's semantic field schema (the
+  names accepted by the `fields` render path) plus any `^FN` in the body with no
+  semantic name.
+
 ## [0.3.0] - 2026-07-01
 
 ### Added
